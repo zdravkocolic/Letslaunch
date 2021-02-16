@@ -43,11 +43,11 @@ body, html{
 }
 .back{
     background-image: url(img/empire_state.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-position: left center;
+    background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box;
-    min-height: 400px;
+    
     
 }
 
@@ -55,8 +55,8 @@ body, html{
 
 .cetvrti img{
    width: 100%;
-    height: 300px;
-    box-shadow: inset 20px 30px 50px 100px black ;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -82,23 +82,21 @@ body, html{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    box-shadow: inset 0 3000px 0 0 rgba(0, 0, 0, 0.151);
 }
-.textPet{
-    text-shadow: 1px 1px #ffffff;
-}
+
 .form-group{
     margin:10px 0 10px 10px;
 }
 
 .img-kupac{
     width: 80px;
-    height: 100px;
+    height: 80px;
     border-radius: 50%;
 }
 .img-ocena{
-    width: 50px;
-    height: 30px;
+   
+    height: 25px;
 }
 .footer{
     background-image: url('img/footer.jpg');
