@@ -1,0 +1,120 @@
+:root{
+    --pd:27px;
+    
+}
+
+body, html{
+    padding: 0;
+    
+    background-color: rgb(236, 235, 235);
+}
+
+.jumbotron{
+    background-image: url(./img/zgrada.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0 50px 0;
+    color: #fff;
+    box-shadow:30px 50px 50px 200px rgba(0, 0, 0, 0.205) inset;
+}
+/* dodajem da uravnjam */
+.padding{
+    padding-left: var(--pd);
+    padding-right: var(--pd);
+}
+.drugi img{
+    width: 50px;
+    
+    
+}
+.drugi{
+    color: rgb(74, 75, 75);
+}
+.drugi a{
+    text-decoration: none;
+    color: rgb(74, 75, 75);
+}
+
+.treci {
+    
+    background-color: rgb(219, 219, 219);
+    
+}
+.back{
+    background-image: url(img/empire_state.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    min-height: 400px;
+    
+}
+
+
+
+.cetvrti img{
+   width: 100%;
+    height: 300px;
+    box-shadow: inset 20px 30px 50px 100px black ;
+}
+
+
+/* slike u cetvrtom sa tekstom */
+
+
+.wrapper .overlay {
+    position: absolute;
+    top:90%;
+    left:10%;
+}
+.cetvrti a{
+    color: rgb(255, 255, 255);
+}
+.cetvrti a:hover{
+    background-color: rgb(5, 5, 5);
+    color:#fff;
+    text-decoration: none;
+}
+
+.bg{
+    background-image: url(img/interior1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.textPet{
+    text-shadow: 1px 1px #ffffff;
+}
+.form-group{
+    margin:10px 0 10px 10px;
+}
+
+.img-kupac{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img-ocena{
+    width: 50px;
+    height: 30px;
+}
+.footer{
+    background-image: url('img/footer.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.layer{
+    background-color: rgba(19, 19, 18, 0.9);
+    width: 100%;
+    height: 100%;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    
+}
